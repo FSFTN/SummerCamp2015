@@ -1,1 +1,1 @@
-Summer camp 2015 static site
+Summer camp 2015 Website
