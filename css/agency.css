@@ -175,15 +175,15 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #008000;
+    font-family: 'Droid Sans', sans-serif;
+    color: #6CC417;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-collapse {
@@ -206,16 +206,16 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Droid Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #008000;
+    color: #6CC417;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #FFCBA4;
 }
 
 .navbar-default .navbar-nav>.active>a {
