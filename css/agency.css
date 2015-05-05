@@ -6,8 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+    font-family: 'PT Sans', serif;}
 
 .text-muted {
     color: #777;
@@ -35,7 +34,7 @@ a.active {
 }
 
 a {
-    color: #008000;
+    color: #298A08;
 }
 
 a:hover,
@@ -52,7 +51,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-weight: 700;
 }
 
@@ -71,10 +70,10 @@ h6 {
 .btn-primary {
     border-color: #fed136;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #8A0808;
 }
 
 .btn-primary:hover,
@@ -109,11 +108,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
     border-color: #fed136;
-    background-color: #fed136;
+    background-color: #8A0808;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #8A0808;
     background-color: #fff;
 }
 
@@ -122,11 +121,11 @@ fieldset[disabled] .btn-primary.active {
     border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #8A0808;
 }
 
 .btn-xl:hover,
@@ -171,19 +170,19 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #08088A;
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Droid Sans', sans-serif;
-    color: #6CC417;
+    font-family: 'PT Sans', serif;
+    color: #298A08;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #ffffff;
+    color: #8A0808;
 }
 
 .navbar-default .navbar-collapse {
@@ -192,36 +191,36 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #fed136;
-    background-color: #fed136;
+    background-color: #8A0808;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #8A0808;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #222;
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'PT Sans', serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #6CC417;
+    color: #298A08;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #FFCBA4;
+    color: #8A0808;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #008000;
+    background-color: #298A08;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -234,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #FFFFFF;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -253,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #FFFFFF;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -281,16 +280,16 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-size: 22px;
-    font-style: italic;
+    /*font-style: italic;*/
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -304,16 +303,18 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'PT Sans', serif;
+        color: #298A08;
         font-size: 40px;
-        font-style: italic;
+        /*font-style: italic;*/
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'PT Sans', serif;
+        color: #298A08;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -333,9 +334,9 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 400;
 }
 
@@ -412,9 +413,9 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 
 #portfolio * {
@@ -493,7 +494,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #8A0808;
 }
 
 .timeline>li .timeline-image h4 {
@@ -653,7 +654,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+   /* background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -686,28 +687,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -724,7 +725,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     line-height: 40px;
 }
 
@@ -732,7 +733,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     line-height: 40px;
 }
 
@@ -790,9 +791,9 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'PT Sans', serif;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 
 .portfolio-modal .modal-content ul.list-inline {
