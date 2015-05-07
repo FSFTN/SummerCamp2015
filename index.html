@@ -65,7 +65,7 @@
                         <!--<a class="page-scroll" href="#services">Our Vision</a>-->
                     <!--</li>-->
                     <li>
-                        <a class="page-scroll" href="#portfolio">REGISTER</a>
+                        <a class="page-scroll" href="#portfolio">Technologies</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Event Schedule</a>
@@ -87,12 +87,15 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To "Event Name"</div>
-                <div class="intro-heading">It's Time To Explore</div>
-                <a href="#portfolio" class="page-scroll btn btn-xl">Learn More</a>
+                <div class="intro-lead-in">Welcome To Summer Camp 2015</div>
+                <div class="intro-heading">It's Time To Explore the world of Free Software Technologies</div>
+                <a href="#" class="page-scroll btn btn-xl">Get Tickets</a>
+                <h6 class="text-center scroll-text">Scroll to know more</h6>
             </div>
         </div>
     </header>
+    <div class="arrow bounce">
+    </div>
 
     <!-- Services Section -->
     <!--<section id="services">-->
@@ -465,7 +468,19 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(window).scroll(function() {
 
+    if ($(this).scrollTop()>0)
+     {
+        $('.scroll-text, .bounce').fadeOut();
+     }
+    else
+     {
+      $('.scroll-text, .bounce').fadeIn();
+     }
+ });
+</script>
 </body>
 
 </html>
