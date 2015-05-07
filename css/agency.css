@@ -6,14 +6,15 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'PT Sans', serif;}
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
 .text-muted {
     color: #777;
 }
 
 .text-primary {
-    color: #298A08;
+    color: #fed136;
 }
 
 p {
@@ -34,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #298A08;
+    color: #fed136;
 }
 
 a:hover,
@@ -51,7 +52,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -60,20 +61,20 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #FFFFFF;
+    background-color: #f7f7f7;
 }
 
 .bg-darkest-gray {
-    background-color: #ffffff;
+    background-color: #222;
 }
 
 .btn-primary {
-    border-color: #298A08;
+    border-color: #fed136;
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #8A0808;
+    background-color: #fed136;
 }
 
 .btn-primary:hover,
@@ -107,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #298A08;
-    background-color: #8A0808;
+    border-color: #fed136;
+    background-color: #fed136;
 }
 
 .btn-primary .badge {
-    color: #8A0808;
+    color: #fed136;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #298A08;
+    border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #8A0808;
+    background-color: #fed136;
 }
 
 .btn-xl:hover,
@@ -135,7 +136,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #0B0B3B;
+    background-color: #fec503;
 }
 
 .btn-xl:active,
@@ -159,30 +160,30 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #298A08;
-    background-color: #298A08;
+    border-color: #fed136;
+    background-color: #fed136;
 }
 
 .btn-xl .badge {
-    color: #298A08;
+    color: #fed136;
     background-color: #fff;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #08088A;
+    background-color: #222;
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'PT Sans', serif;
-    color: #298A08;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #8A0808;
+    color: #fec503;
 }
 
 .navbar-default .navbar-collapse {
@@ -190,57 +191,57 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #298A08;
-    background-color: #8A0808;
+    border-color: #fed136;
+    background-color: #fed136;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #8A0808;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #222;
+    background-color: #fed136;
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #298A08;
+    color: #fff;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #8A0808;
+    color: #fed136;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #8A0808;
+    background-color: #fed136;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #0B0B3B;
+    background-color: #fec503;
 }
 
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: #FFFFFF;
+        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-default .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -252,7 +253,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #FFFFFF;
+        background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -264,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url();
+    background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -280,16 +281,16 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: 'PT Sans', serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    /*font-style: italic;*/
+    font-style: italic;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -303,18 +304,16 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: 'PT Sans', serif;
-        color: #298A08;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        /*font-style: italic;*/
+        font-style: italic;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: 'PT Sans', serif;
-        color: #298A08;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -334,9 +333,9 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'PT Sans', serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    /*font-style: italic;*/
+    font-style: italic;
     font-weight: 400;
 }
 
@@ -413,9 +412,9 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: 'PT Sans', serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    /*font-style: italic;*/
+    font-style: italic;
 }
 
 #portfolio * {
@@ -494,7 +493,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #8A0808;
+    background-color: #fed136;
 }
 
 .timeline>li .timeline-image h4 {
@@ -654,7 +653,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-   /* background-image: url(../img/map-image.png);*/
+    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -681,34 +680,34 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #298A08;
+    border-color: #fed136;
     box-shadow: none;
 }
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -725,7 +724,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -733,7 +732,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: 'PT Sans', serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -759,7 +758,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #298A08;
+    background-color: #fed136;
 }
 
 .btn:focus,
@@ -791,9 +790,9 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: 'PT Sans', serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    /*font-style: italic;*/
+    font-style: italic;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -847,12 +846,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #298A08;
+    background: #fed136;
 }
 
 ::selection {
     text-shadow: none;
-    background: #298A08;
+    background: #fed136;
 }
 
 img::selection {
@@ -864,5 +863,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #298A08;
+    webkit-tap-highlight-color: #fed136;
 }
