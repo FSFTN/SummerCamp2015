@@ -361,6 +361,12 @@ section h3.section-subheading {
     margin: 0 auto;
     max-width: 400px;
 }
+#portfolio .portfolio-item .portfolio-link img{
+  max-height: 252px;
+  min-height: 252px;
+  min-width: 100%;
+  border-bottom: 1px solid #eee;
+}
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
