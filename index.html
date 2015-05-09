@@ -589,6 +589,14 @@
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });
+        $('.ruby span:lt(5)').click(function(){
+          window.open('http://fsftn.org', '_blank');
+          return false;
+        });
+        $('.ruby span:gt(4)').click(function(){
+          window.open('http://discuss.fsftn.org', '_blank');
+          return false;
+      });
       });
     </script>
   </body>

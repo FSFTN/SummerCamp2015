@@ -989,6 +989,9 @@ body {
 .previous-editions h2{
   color: #fff;
 }
+.previous-editions span{
+  cursor: pointer;
+}
 .previous-editions pre{
   font-size: 20px;
   border: none;
