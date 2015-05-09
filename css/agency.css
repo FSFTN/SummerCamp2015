@@ -982,3 +982,15 @@ body {
 .venue{
   margin-bottom: 0px;
 }
+.previous-editions{
+   background-color:#23241F;
+   margin-bottom: 0px;
+}
+.previous-editions h2{
+  color: #fff;
+}
+.previous-editions pre{
+  font-size: 20px;
+  border: none;
+  background-color: #23241F;
+}
