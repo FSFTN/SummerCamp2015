@@ -81,7 +81,7 @@
               <a class="page-scroll" href="#about">Event Schedule</a>
             </li>
             <li>
-              <a class="page-scroll" href="#team">Speaker Profile</a>
+              <a class="page-scroll" href="#venue">Venue</a>
             </li>
             <li>
               <a class="page-scroll" href="#contact">Contact</a>
@@ -341,16 +341,16 @@
                     <h4 class="subheading">Technology vs society</h4>
                   </div>
                   <div class="timeline-body">
-                      <ol >
-                        <li>Cloud and Containers</li>
-                        <li>Getting started with Free Software Contribution</li>
-                        <li>Net Neutrality</li>
-                        <li>Swift</li>
-                        <li>How to form a Glug and What next?</li>
-                        <li>Certificate distribution</li>
-                      </ol>
+                    <ol >
+                      <li>Cloud and Containers</li>
+                      <li>Getting started with Free Software Contribution</li>
+                      <li>Net Neutrality</li>
+                      <li>Swift</li>
+                      <li>How to form a Glug and What next?</li>
+                      <li>Certificate distribution</li>
+                    </ol>
                   </div>
-                  
+
                 </div>
               </li>
 
@@ -360,6 +360,13 @@
       </div>
     </section>
 
+    <div id="venue" class="row well venue">
+      <h2 class="text-center text-muted">Venue</h2>
+      <h3 class="text-center text-muted">Computer Science Department, IIT Madras</h3>
+      <div class="  col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=80.2273017168045%2C12.987758137674492%2C80.23141086101532%2C12.991166239601895&amp;layer=mapnik&amp;marker=12.989462194483556%2C80.22935628890991" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=12.98946&amp;mlon=80.22936#map=18/12.98946/80.22936">View Larger Map</a></small>
+      </div>
+    </div>
     <!-- Team Section -->
     <!--   <section id="team" class="bg-light-gray">
       <div class="container">
@@ -547,9 +554,9 @@
     <script src="js/agency.js"></script>
     <script type="text/javascript" charset="utf-8">
       $(window).scroll(function() {
-
-        if ($(this).scrollTop()>0)
-          {
+        if ($(this).scrollTop() !== 0){
+            $('.scroll-text, .bounce').hide()
+          }else if($(this).scrollTop()>0){
             $('.scroll-text, .bounce').fadeOut("fast");
           }
           else

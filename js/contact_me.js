@@ -20,6 +20,8 @@ $(function() {
             $.ajax({
                 url: "http://sc15.herokuapp.com/contacts",
                 type: "POST",
+                crossDomain: true,
+                contentType: "application/json",
                 data: {
                     name: name,
                     phone: phone,
