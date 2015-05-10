@@ -361,20 +361,28 @@
     </section>
 
     <div class="row previous-editions">
-      <div class="col-sm-8 col-sm-offset-2">
+      <div class="col-sm-8 col-sm-offset-2 col-xs-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
         <h2 class="text-center">Previous Editions</h2>
         <pre>
         <code class="ruby">
-            summer_camp = { 
-                  "2013" => {
-                        place: "IIT Madras",
-                        participants: "118"
-                  }, 
-                  "2014" => {
-                        place: "IIT Madras",
-                        participants: "130"
-                  }
-            }
+summer_camp = { 
+      "2014" => {
+            place: "IIT Madras",
+            participants: "120+"
+      },
+      "2013" => {
+            place: "IIT Madras",
+            participants: "130+"
+      }, 
+      "2009" => {
+            place: "SSN Engineering College",
+            participants: "100+"
+      },
+      "2008" => {
+            place: "SSN Engineering College",
+            participants: "120+"
+      }
+}
           </code>
           </pre>
       </div>  
@@ -589,14 +597,27 @@
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });
-        $('.ruby span:lt(5)').click(function(){
-          window.open('http://fsftn.org', '_blank');
+
+        //2014
+        $('.ruby span:nth-child(-n+5)').click(function(){
+          window.open('http://fsftn.org/summer-camp-2014/', '_blank');
           return false;
         });
-        $('.ruby span:gt(4)').click(function(){
+        //2013
+        $('.ruby span:nth-child(n+6):nth-child(-n+10)').click(function(){
+          window.open('http://google.com', '_blank');
+          return false;
+        });
+        //2009
+        $('.ruby span:nth-child(n+11):nth-child(-n+15)').click(function(){
           window.open('http://discuss.fsftn.org', '_blank');
           return false;
-      });
+        });
+        //2008
+        $('.ruby span:nth-child(n+16):nth-child(-n+20)').click(function(){
+          window.open('https://twitter.com/fsftamilnadu', '_blank');
+          return false;
+        });
       });
     </script>
   </body>

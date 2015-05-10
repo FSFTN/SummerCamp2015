@@ -623,12 +623,19 @@ section h3.section-subheading {
   .timeline:before {
     left: 49%;
     }
+    .previous-editions code{
+      padding-left: 20%;
+    }
 }
 
 @media(min-width:992px) {
   .timeline>li {
     min-height: 150px;
   }
+  .previous-editions code{
+    padding-left: 10%;
+  }
+  
 
   .timeline>li .timeline-panel {
     padding: 0 20px 20px;
