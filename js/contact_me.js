@@ -18,8 +18,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "http://sc15.herokuapp.com/contacts",
                 type: "POST",
+                crossDomain: true,
+                contentType: "application/json",
                 data: {
                     name: name,
                     phone: phone,
