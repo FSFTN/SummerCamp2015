@@ -35,7 +35,8 @@ a.active {
 }
 
 a {
-  color: #fed136;
+  /*color: #fed136;*/
+  color: #9900CC;
 }
 
 a:hover,
@@ -329,7 +330,7 @@ section {
 section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
-  font-size: 40px;
+  font-size: 28px;
 }
 
 section h3.section-subheading {
