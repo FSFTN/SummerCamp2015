@@ -1035,7 +1035,7 @@ body {
   overflow: hidden;
 }
 .faq-block.active{
-  max-height: 830px;
+  max-height: 870px;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .9s;
