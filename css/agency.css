@@ -1060,3 +1060,7 @@ body {
 .panel-default>.panel-heading+.panel-collapse>.panel-body{
   border: none !important;
 }
+.android-app{
+  width: 30%;
+  margin: auto;
+}
