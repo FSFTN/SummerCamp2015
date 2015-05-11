@@ -240,21 +240,12 @@ fieldset[disabled] .btn-xl.active {
     transition: padding .3s;
   }
 
-<<<<<<< HEAD
-    .navbar-default .navbar-brand {
-        font-size: 1.5em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-=======
   .navbar-default .navbar-brand {
     font-size: 2em;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
   }
->>>>>>> 95fa6a8f5b611395348e0911a20592a1489a8e98
 
   .navbar-default .navbar-nav>.active>a {
     border-radius: 3px;
@@ -587,7 +578,7 @@ section h3.section-subheading {
     moz-transform: translateY(-20%);
     -o-transform: translateY(-20%);
     transform: translateY(-20%);
-    
+
   }
 }
 @media(min-width:768px) {
@@ -632,10 +623,10 @@ section h3.section-subheading {
 @media (min-width:1200px){
   .timeline:before {
     left: 49%;
-    }
-    .previous-editions code{
-      padding-left: 15%;
-    }
+  }
+  .previous-editions code{
+    padding-left: 15%;
+  }
 }
 
 @media(min-width:992px) {
@@ -645,7 +636,7 @@ section h3.section-subheading {
   .previous-editions code{
     padding-left: 15%;
   }
-  
+
 
   .timeline>li .timeline-panel {
     padding: 0 20px 20px;
@@ -1000,8 +991,8 @@ body {
   margin-bottom: 0px;
 }
 .previous-editions{
-   background-color:#23241F;
-   margin-bottom: 0px;
+  background-color:#23241F;
+  margin-bottom: 0px;
 }
 .previous-editions h2{
   color: #fff;
@@ -1013,4 +1004,59 @@ body {
   font-size: 18px;
   border: none;
   background-color: #23241F;
+}
+.panel-heading [data-toggle="collapse"]:after {
+  font: 'normal normal normal 14px/1 FontAwesome';
+  content: "\f0d7"; /* "play" icon */
+  float: right;
+  color: #F58723;
+  font-size: 18px;
+  line-height: 22px;
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  color: #454444;
+}
+.faq-block{
+  max-height:70px;
+  overflow: hidden;
+}
+.faq-block.active{
+  max-height: 830px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .9s;
+}
+.faq-block h1{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.faq-block h1:hover {
+  color: #fed136;
+}
+.panel-heading{
+  background-color: transparent !important;
+  border: none !important;
+}
+.panel-title{
+  color: #777;
+  text-transform: none;
+}
+.panel{
+  border: 0px !important;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body{
+  border: none !important;
 }
