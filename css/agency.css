@@ -240,12 +240,21 @@ fieldset[disabled] .btn-xl.active {
     transition: padding .3s;
   }
 
+<<<<<<< HEAD
+    .navbar-default .navbar-brand {
+        font-size: 1.5em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+=======
   .navbar-default .navbar-brand {
     font-size: 2em;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
   }
+>>>>>>> 95fa6a8f5b611395348e0911a20592a1489a8e98
 
   .navbar-default .navbar-nav>.active>a {
     border-radius: 3px;
@@ -265,7 +274,7 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(../img/header-bg.png);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
