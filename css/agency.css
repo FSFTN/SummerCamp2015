@@ -272,6 +272,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
 }
 
 header .intro-text {
@@ -624,7 +625,7 @@ section h3.section-subheading {
     left: 49%;
     }
     .previous-editions code{
-      padding-left: 20%;
+      padding-left: 15%;
     }
 }
 
@@ -633,7 +634,7 @@ section h3.section-subheading {
     min-height: 150px;
   }
   .previous-editions code{
-    padding-left: 10%;
+    padding-left: 15%;
   }
   
 
@@ -1000,7 +1001,7 @@ body {
   cursor: pointer;
 }
 .previous-editions pre{
-  font-size: 20px;
+  font-size: 18px;
   border: none;
   background-color: #23241F;
 }
