@@ -23,10 +23,12 @@ $(function() {
         dataType: 'jsonp', 
         crossDomain: true,
         data: {
-          name: name,
-          phone: phone,
-          email: email,
-          message: message
+          contact: {
+            name: name,
+            phone: phone,
+            email: email,
+            message: message
+          }
         },
         cache: false,
         success: function() {
