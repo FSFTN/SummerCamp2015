@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://sc15.herokuapp.com/contacts",
+                url: "https://sc15.herokuapp.com/contacts",
                 type: "POST",
                 crossDomain: true,
                 contentType: "application/json",
