@@ -242,6 +242,7 @@ fieldset[disabled] .btn-xl.active {
 
   .navbar-default .navbar-brand {
     font-size: 2em;
+    font-weight: 800;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -342,7 +343,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
   section {
-    padding: 150px 0;
+    padding: 150px 0 100px 0px;
   }
 }
 
