@@ -506,7 +506,10 @@ summer_camp = {
       </div>
     </aside> -->
     <div id="faq" class="row faq-block">
-      <h1 class="text-center text-muted">FAQ</h1>
+      <h3 class="text-center text-muted">So you got questions?</h3>
+      <h6 class="text-center text-muted">
+        <button class="btn btn-primary get-answers">Get the answers</button>
+      </h6>
       <div class="container faq-container">
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
@@ -581,8 +584,8 @@ summer_camp = {
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
               <div class="panel-body">
-                The fee is ₹3700 per participant for the whole 6-days workshop.
-                Early bird fee per participant is ₹3000 for the whole workshop.
+                The fee is  <strong>3700 inr</strong> per participant for the whole 6-days workshop.
+                Early bird fee per participant is <strong>3000 inr</strong> for the whole workshop.
               </div>
             </div>
           </div>
@@ -858,7 +861,7 @@ summer_camp = {
           return false;
         });
 
-        $('.faq-block h1').click(function(){
+        $('.get-answers').click(function(){
           $('.faq-block').toggleClass('active');
         });
 

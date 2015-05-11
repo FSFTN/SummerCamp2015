@@ -1030,7 +1030,7 @@ body {
   color: #454444;
 }
 .faq-block{
-  max-height:70px;
+  max-height:110px;
   overflow: hidden;
 }
 .faq-block.active{
@@ -1038,13 +1038,6 @@ body {
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .9s;
-}
-.faq-block h1{
-  text-decoration: underline;
-  cursor: pointer;
-}
-.faq-block h1:hover {
-  color: #fed136;
 }
 .panel-heading{
   background-color: transparent !important;
