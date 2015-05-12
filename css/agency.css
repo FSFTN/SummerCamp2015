@@ -1036,8 +1036,8 @@ body {
 }
 .faq-block.active{
   max-height: 870px;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
+  -webkit-transition: all .9s;
+  -moz-transition: all .9s;
   transition: all .9s;
 }
 .panel-heading{
@@ -1057,4 +1057,10 @@ body {
 .android-app{
   width: 30%;
   margin: auto;
+}
+.android-app:hover{
+  opacity: 0.7;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
 }
