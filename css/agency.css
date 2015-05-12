@@ -345,6 +345,7 @@ section h3.section-subheading {
   section {
     padding: 150px 0 100px 0px;
   }
+
 }
 
 .service-heading {
@@ -434,6 +435,7 @@ section h3.section-subheading {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+
 }
 
 .timeline {
@@ -569,6 +571,11 @@ section h3.section-subheading {
   transform: translateY(-35%);
 }
 
+@media(max-width: 560px){
+  .previous-editions pre{
+    font-size: 13px !important;
+  }
+}
 @media(max-width: 768px){
   .timeline-date{
     font-size: 12px;  
@@ -581,6 +588,7 @@ section h3.section-subheading {
     transform: translateY(-20%);
 
   }
+
 }
 @media(min-width:768px) {
   .timeline:before {
