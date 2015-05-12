@@ -1072,3 +1072,38 @@ body {
   -moz-transition: all .3s;
   transition: all .3s;
 }
+.social{
+  text-align: center;
+  position: fixed;
+  top: 45%;
+  left: 2%;
+  z-index: 100;
+}
+.social ul li{
+  display: block;
+  margin: 10px 0px;
+}
+
+.social ul li .facebook, .social ul li .facebook:active, .social ul li .facebook:focus{
+  background-color: #3b5998;
+}
+.social ul li .twitter, .social ul li .twitter:active, .social ul li .twitter:focus{
+  background-color: #55acee;
+}
+.social ul li .facebook:hover{
+  background-color: #6d84b4;
+}
+.social ul li .twitter:hover{
+  background-color: #1dcaff;
+}
+.social ul li a{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.social ul li a:hover{
+  margin-left: 10px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}

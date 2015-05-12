@@ -51,6 +51,14 @@
   </head>
 
   <body id="page-top" class="index">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=672096032933793";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -352,7 +360,8 @@ summer_camp = {
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <h2 class="text-center text-muted">Venue</h2>
-          <h5 class="text-center text-muted">Computer Science Department, IIT Madras (tentative)</h5>
+          <h5 class="text-center text-muted">Computer Science Department, IIT Madras </h5>
+          <h6 class="text-center text-muted">(tentative)</h6>
           <div class="  col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
             <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=80.2273017168045%2C12.987758137674492%2C80.23141086101532%2C12.991166239601895&amp;layer=mapnik&amp;marker=12.989462194483556%2C80.22935628890991" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=12.98946&amp;mlon=80.22936#map=18/12.98946/80.22936">View Larger Map</a></small>
           </div>
@@ -360,14 +369,14 @@ summer_camp = {
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <h2 class="text-center text-muted">Android app</h2>
           <h5 class="text-center text-muted">
-	    <a href="http://fsftn.org/sc15/sc15_fsftn.apk">Download</a> 
-	    to get real-time updates about Event</h5>
-	  <h6 class="text-center text-muted">
-	    Never trust any software without
+            <a href="http://fsftn.org/sc15/sc15_fsftn.apk">Download</a> 
+            to get real-time updates about Event</h5>
+          <h6 class="text-center text-muted">
+            Never trust any software without
             <a href="https://github.com/FSFTN/SC15AndroidApp" target="_blank">Source Code</a>
-	  </h6>
+          </h6>
           <a href="http://fsftn.org/sc15/sc15_fsftn.apk">
-           <img class="img-responsive android-app" src="img/android.jpg" alt="" />
+            <img class="img-responsive android-app" src="img/android.jpg" alt="" />
           </a>
         </div>
       </div>
@@ -681,6 +690,14 @@ summer_camp = {
         </div>
       </div>
     </footer>
+    <div class="social">
+      <ul class="list-inline social-buttons">
+        <li><a href="https://twitter.com/intent/tweet?hashtags=FSFTNSC15&original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=FSFTN%20is%20organizing%20a%20Free%20Software%20Summer%20Camp%20this%20June&tw_p=tweetbutton&url=http%3A%2F%2Ffsftnsummercamp.org%2F&via=FSFTamilnadu" target="_blank" class='twitter '  ><i class="fa fa-twitter"></i></a>
+        </li>
+        <li><a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -753,6 +770,16 @@ summer_camp = {
         });
       });
 
+      $('.facebook').click(function(e){
+        e.preventDefault();
+        FB.ui({
+          method: 'share_open_graph',
+          action_type: 'og.likes',
+          action_properties: JSON.stringify({
+            object:'https://developers.facebook.com/docs/',
+          })
+        }, function(response){});
+      });
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -762,6 +789,9 @@ summer_camp = {
       ga('send', 'pageview');
 
     </script>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
   </body>
 
 </html>
