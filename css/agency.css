@@ -588,6 +588,10 @@ section h3.section-subheading {
     transform: translateY(-20%);
 
   }
+  .social{
+    top: 65% !important;
+  }
+
 
 }
 @media(min-width:768px) {
@@ -1076,7 +1080,7 @@ body {
   text-align: center;
   position: fixed;
   top: 45%;
-  left: 2%;
+  left: 0.3%;
   z-index: 100;
 }
 .social ul li{
@@ -1106,4 +1110,12 @@ body {
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
+  
+}
+.social ul li a:hover .fa{
+  -webkit-transform: 
+  -ms-transform: rotateZ(20deg);
+  moz-transform:rotateZ(20deg);
+  -o-transform:rotateZ(20deg);
+  transform: rotateZ(20deg);
 }
