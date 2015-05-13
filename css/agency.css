@@ -333,12 +333,14 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-  margin-bottom: 75px;
   text-transform: none;
   font-family: 'PT Sans', sans-serif;
   font-size: 30px;
   /*font-style: italic;*/
   font-weight: 400;
+}
+.syllabus-block{
+  margin-bottom: 50px;
 }
 
 @media(min-width:768px) {
