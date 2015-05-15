@@ -718,13 +718,16 @@ summer_camp = {
     <script type="text/javascript" charset="utf-8">
       $(window).scroll(function() {
         if ($(this).scrollTop() !== 0){
-          $('.scroll-text, .bounce').hide()
+          $('.bounce').hide()
+          $('.scroll-text').css('color','transparent');
         }else if($(this).scrollTop()>0){
-          $('.scroll-text, .bounce').fadeOut("fast");
+          $('.bounce').fadeOut("fast");
+          $('.bounce').css('background','transparent');
         }
         else
           {
-            $('.scroll-text, .bounce').fadeIn("fast");
+            $('.scroll-text').css('color','#fff');
+            $('.bounce').fadeIn("fast");
           }
       });
       $(document).ready(function() {
