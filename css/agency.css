@@ -1054,7 +1054,7 @@ body {
   margin-bottom:50px;
 }
 .faq-block.active{
-  max-height: 870px;
+  max-height: 980px;
   -webkit-transition: all .9s;
   -moz-transition: all .9s;
   transition: all .9s;
