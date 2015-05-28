@@ -1126,3 +1126,26 @@ body {
   -o-transform:rotateZ(20deg);
   transform: rotateZ(20deg);
 }
+.count-down{
+  position: absolute;
+  top: 25%;
+  left: 26%;
+}
+.flip-clock-label{
+  color: #fff !important;
+  font-size: 18px;
+}
+.inn{
+  color: #EBEBEB !important;
+}
+.timer-block{
+  padding: 100px 0 100px 0px;
+}
+.countdown-timer{
+  width: 60%;
+  margin: auto;
+}
+.countdown-timer h2{
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
