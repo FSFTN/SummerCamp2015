@@ -577,6 +577,13 @@ section h3.section-subheading {
   .previous-editions pre{
     font-size: 13px !important;
   }
+
+  .countdown-timer{
+    width: 90% !important;
+  }
+  .countdown-timer h2{
+    font-size: 1.5em !important;
+  }
 }
 @media(max-width: 768px){
   .timeline-date{
@@ -594,6 +601,12 @@ section h3.section-subheading {
     top: 65% !important;
   }
 
+  .countdown-timer{
+    width: 90% !important;
+  }
+  .countdown-timer h2{
+    font-size: 1.5em !important;
+  }
 
 }
 @media(min-width:768px) {
@@ -1125,18 +1138,6 @@ body {
   moz-transform:rotateZ(20deg);
   -o-transform:rotateZ(20deg);
   transform: rotateZ(20deg);
-}
-.count-down{
-  position: absolute;
-  top: 25%;
-  left: 26%;
-}
-.flip-clock-label{
-  color: #fff !important;
-  font-size: 18px;
-}
-.inn{
-  color: #EBEBEB !important;
 }
 .timer-block{
   padding: 100px 0 100px 0px;
